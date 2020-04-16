@@ -40,7 +40,6 @@ restaurants_attributes = [
   }
 ]
 
-  Restaurant.create!(restaurants_attributes)
-  puts "Created #{restaurant.name}"
+  restaurant = Restaurant.create!(restaurants_attributes)
 
   puts "Finished!"
